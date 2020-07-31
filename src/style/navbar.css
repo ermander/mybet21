@@ -1,0 +1,62 @@
+.backGroundImage{
+    max-width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 15em;
+}
+
+.inner{
+    text-align: center;
+    color: rgb(189, 184, 184);
+    overflow: hidden;
+    padding: 0.4em;
+}
+
+.inner > h1{
+    font-size: 4.5em;
+    font-weight: bold;
+    animation: Slide_Up 1.4s ease;
+}
+
+.inner > p{
+    padding-top: 2rem;
+    font-size: 1.7em;
+    font-weight: bold;
+    animation: Slide_Up 2.1s ease;
+}
+
+.inner > button{
+    margin-top: 2rem;
+    padding: .5em 4.5rem;
+    font-size: 1.5em;
+    border-radius: 4em;
+    border: 1px solid whitesmoke;
+    background-color: transparent;
+    color: whitesmoke;
+    animation: Slide_Up 2.4s ease;
+}
+
+.inner > button:hover{
+    margin-top: 2rem;
+    padding: .5em 4.5rem;
+    font-size: 1.5em;
+    border-radius: 4em;
+    border: 1px solid whitesmoke;
+    background-color:rgba(66, 65, 65, 0.733);
+    color: whitesmoke;
+    animation: Slide_Up 2.4s ease;
+}
+
+
+@keyframes Slide_Up{
+    0%{
+        transform: translateY(250px);
+    }
+    100%{
+        transform: translateY(0px);        
+    }
+}
+
