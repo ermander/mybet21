@@ -6,11 +6,12 @@
     display: flex;
     justify-content: center;
     padding-top: 15em;
+    padding-bottom: 31vh;
 }
 
 .inner{
     text-align: center;
-    color: rgb(189, 184, 184);
+    color: white;
     overflow: hidden;
     padding: 0.4em;
 }
@@ -32,10 +33,11 @@
     margin-top: 2rem;
     padding: .5em 4.5rem;
     font-size: 1.5em;
+    font-weight: bold;
     border-radius: 4em;
-    border: 1px solid whitesmoke;
+    border: 1px solid white;;
     background-color: transparent;
-    color: whitesmoke;
+    color: white;
     animation: Slide_Up 2.4s ease;
 }
 
@@ -44,10 +46,23 @@
     padding: .5em 4.5rem;
     font-size: 1.5em;
     border-radius: 4em;
-    border: 1px solid whitesmoke;
+    border: 1px solid white;
     background-color:rgba(66, 65, 65, 0.733);
-    color: whitesmoke;
+    color: white;
     animation: Slide_Up 2.4s ease;
+}
+
+.inner > button:focus{
+    margin-top: 2rem;
+    padding: .5em 4.5rem;
+    font-size: 1.5em;
+    border-radius: 4em;
+    border: 1px solid white!important;
+    background-color:rgba(66, 65, 65, 0.733)!important;
+    color: white !important;
+    animation: Slide_Up 2.4s ease;
+    outline: none !important;
+    box-shadow: none;
 }
 
 

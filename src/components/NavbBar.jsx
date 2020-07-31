@@ -7,7 +7,7 @@ export default function(){
         <div className="container">
             <div className="inner">
                 <h1>MATCHED BETTING BLACK</h1>
-                <p>Il metodo rivoluzionario per il Matched Betting per generare fino al 50% di ROI!</p>
+                <p>Il metodo rivoluzionario per ottenere fino al 50% di ROI con il Matched Betting!</p>
                 <Button className="iscrivitiOra">Iscriviti Ora</Button>
             </div>               
         </div>

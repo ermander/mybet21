@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.contactSection{
+    background: url("https://res.cloudinary.com/dnadfuxk0/image/upload/v1596234559/MyBet21/2671564_jk2m03.jpg") no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.contactSection h1{
+    text-align: center;
+    color: #ddd;
+    font-weight: bold;
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+}
+
+.contactForm{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contactFormText{
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.contactFormText:hover{
+    box-shadow: 0 0 10px 4px #34495e !important;
+}
+
+.contactSection > .contactForm > button{
+    margin-top: 2rem;
+    padding: .5em 4.5rem;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 4em;
+    border: 1px solid white;;
+    background-color: transparent;
+    color: white;
+}
+
+.contactSetion > .contactForm > button:hover{
+    margin-top: 2rem;
+    padding: .5em 4.5rem;
+    font-size: 1.5em;
+    border-radius: 4em;
+    border: 1px solid white;
+    background-color:rgba(66, 65, 65, 0.733);
+    color: white;
+}
+
+.contactSection > .contactForm >button:focus{
+    margin-top: 2rem;
+    padding: .5em 4.5rem;
+    font-size: 1.5em;
+    border-radius: 4em;
+    border: 1px solid white!important;
+    background-color:rgba(66, 65, 65, 0.733)!important;
+    color: white !important;
+    outline: none !important;
+    box-shadow: none;
+}
+
