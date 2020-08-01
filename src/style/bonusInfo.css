@@ -9,19 +9,33 @@
 
     .faCircleRow{
         margin-top: 33%!important;
-        margin-bottom: 33%33%!important;
+        margin-bottom: 33%!important;
+        color: white;
+    }
+
+    .faCircleRow  p{
+        margin-top: 33%!important;
+        margin-bottom: 33%!important;
+        color: white!important;
     }
 
     .image{
         margin: 20px;
-        height: 5vh;
-        width: 10vw;
+        height: 29vh;
+        width: 15vw;
         background: black;
         border-radius: 50%;
         border: 2px white solid;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .faCircleInfo{
+        color: white;
+        padding: 6%;
+        font-size: 50px;
+        font-weight: bold!important;
     }
 
     .span{
@@ -43,13 +57,21 @@
 
     .faCircleRow{
         margin-top: 33%!important;
-        margin-bottom: 33%33%!important;
+        margin-bottom: 33%!important;
+        color: white;
+    }
+
+    .faCircleInfo{
+        color: white;
+        padding: 15%;
+        font-size: 17px;
+        font-weight: bold!important;
     }
 
     .image{
         margin: 20px;
-        height: 12vh;
-        width: 30;
+        height: 17vh;
+        width: 32vw;
         background: black;
         border-radius: 50%;
         border: 2px white solid;
@@ -59,9 +81,8 @@
     }
 
     .span{
-        font-size: 85px;
+        font-size: 40px;
         color: white;
         z-index: 50;
-    }
-    
+    }    
 }
