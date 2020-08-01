@@ -19,7 +19,6 @@
     border-right: 2px solid #fff;
     animation: animate 1.5s linear infinite;
     opacity: 0;
-
 }
 
 .scrolldown span:nth-child(1){
