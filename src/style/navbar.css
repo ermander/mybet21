@@ -1,8 +1,8 @@
-.backGroundImage{
-    max-width: 100%;
-}
-
 .container{
+    min-width: 100vw;
+    background-image: url("https://res.cloudinary.com/dnadfuxk0/image/upload/v1596239578/MyBet21/Epic-Soccer-Training-Review-29_af9qg5.jpg");
+    background-image: stretch;
+    background-size: 100vw;
     display: flex;
     justify-content: center;
     padding-top: 15em;
