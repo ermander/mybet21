@@ -51,7 +51,7 @@
 
 .contactSection > .contactForm > button{
     margin-top: 2rem;
-    padding: .5em 4.5rem;
+    padding: .7em 4.5rem;
     font-size: 1.5em;
     font-weight: bold;
     border-radius: 4em;
@@ -60,19 +60,19 @@
     color: white;
 }
 
-.contactSetion > .contactForm > button:hover{
+.contactSection > .contactForm > button:hover{
     margin-top: 2rem;
-    padding: .5em 4.5rem;
+    padding: .7em 4.5rem;
     font-size: 1.5em;
     border-radius: 4em;
     border: 1px solid white;
-    background-color:rgba(66, 65, 65, 0.733);
+    background-color:rgba(66, 65, 65, 0.733)!important;
     color: white;
 }
 
 .contactSection > .contactForm >button:focus{
     margin-top: 2rem;
-    padding: .5em 4.5rem;
+    padding: .7em 4.5rem;
     font-size: 1.5em;
     border-radius: 4em;
     border: 1px solid white!important;
