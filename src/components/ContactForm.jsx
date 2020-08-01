@@ -11,13 +11,14 @@ class ContactForm extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="pt-5">
                 <div className="contactSection">
-                   <h1>Iscriviti alla newsletter</h1>
+                   <h1>Iscriviti per avere maggiori informazioni</h1>
                    <form className="contactForm">
-                       <input type="text" className="contactFormText" placeholder="Inserisci il tuo nome"/>
-                       <input type="text" className="contactFormText" placeholder="Inserisci il tuo cognome"/>
-                       <input type="email" className="contactFormText" placeholder="Inserisci la tua email"/>
+                       <input type="text" className="contactFormText" placeholder="Scrivi il tuo nome"/>
+                       <input type="text" className="contactFormText" placeholder="Scrivi il tuo cognome"/>
+                       <input type="email" className="contactFormText" placeholder="Scrivi la tua email"/>
+                       <textarea type="text-area" className="contactFormText" placeholder="Scrivi il tuo messaggio" ></textarea>
                        <Button className="submitButton">Iscriviti</Button>
                    </form>
                 </div>                
