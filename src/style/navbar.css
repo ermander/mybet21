@@ -19,7 +19,7 @@
     }
     
     .inner > h1{
-        font-size: 4.3em;
+        font-size: 4em;
         font-weight: bold;
         animation: Slide_Up 1.4s ease;
     }

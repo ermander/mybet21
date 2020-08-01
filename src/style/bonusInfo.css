@@ -14,8 +14,8 @@
 
     .image{
         margin: 20px;
-        height: 200px;
-        width: 200px;
+        height: 5vh;
+        width: 10vw;
         background: black;
         border-radius: 50%;
         border: 2px white solid;
@@ -48,8 +48,8 @@
 
     .image{
         margin: 20px;
-        height: 200px;
-        width: 200px;
+        height: 12vh;
+        width: 30;
         background: black;
         border-radius: 50%;
         border: 2px white solid;
