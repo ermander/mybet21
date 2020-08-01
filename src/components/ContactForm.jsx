@@ -11,6 +11,10 @@ class ContactForm extends Component {
         message: ""
     }
 
+    submitMail = async() => {
+
+    }
+
 
     render() {
         return (
