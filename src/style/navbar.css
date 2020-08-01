@@ -4,7 +4,7 @@
     background-size: 100vw 100vh stretch;
     display: flex;
     justify-content: center;
-    padding-top: 10em;
+    padding-top: 5em;
     padding-bottom: 14vh;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .inner > p{
-    padding-top: 2rem;
+    padding-top: 2.3rem;
     font-size: 1.7em;
     font-weight: bold;
     animation: Slide_Up 2.1s ease;
@@ -30,7 +30,7 @@
 
 .inner > button{
     margin-top: 2rem;
-    padding: .5em 4.5rem;
+    padding: .7em 4.5rem;
     font-size: 1.5em;
     font-weight: bold;
     border-radius: 4em;
