@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+h1, h3{
+    font-weight: bold;
+}
+
+.list{
+    font-size: 30px;
+    font-weight: bold;
+}
+.priceContainer{
+    font-weight: bold;
+    border: 2px solid white;
+    width: 80;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}

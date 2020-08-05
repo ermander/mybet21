@@ -1,3 +1,86 @@
+@media all and (max-width: 360px){
+    .container-fluid{
+        background-image: url("https://res.cloudinary.com/dnadfuxk0/image/upload/v1596239578/MyBet21/Epic-Soccer-Training-Review-29_af9qg5.jpg");
+        background-position: center center;
+        background-size: contain no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        padding-top: 5em;
+        padding-bottom: 5vh;
+        height: 120vh;
+    }
+    
+    .inner{
+        height: 85vh;
+        text-align: center;
+        color: white;
+        overflow: hidden;
+        padding: 0.4em;
+    }
+    
+    .inner > h1{
+        font-size: 4em;
+        font-weight: bold;
+        animation: Slide_Up 1.4s ease;
+    }
+    
+    .inner > p{
+        padding-top: 2.3rem;
+        font-size: 1.5em;
+        font-weight: bold;
+        animation: Slide_Up 2.1s ease;
+    }
+    
+    .inner > a > button{
+        position: absolute;
+        left: 11vw;
+        z-index: 1000;
+        padding: .7em 4.5rem;
+        font-size: 1.3em;
+        font-weight: bold;
+        border-radius: 4em;
+        border: 1px solid white;;
+        background-color: transparent;
+        color: white;
+        animation: Slide_Up 2.4s ease;
+    }
+    
+    .inner > a > button:hover{
+        margin-top: 2rem;
+        padding: .7em 4.5rem;
+        font-size: 1.5em;
+        border-radius: 4em;
+        border: 1px solid white;
+        background-color:rgba(66, 65, 65, 0.733)!important;
+        color: white;
+        animation: Slide_Up 2.4s ease;
+    }
+    
+    .inner > a > button:focus{
+        margin-top: 2rem;
+        padding: .7em 4.5rem;
+        font-size: 1.5em;
+        border-radius: 4em;
+        border: 1px solid white!important;
+        background-color:rgba(66, 65, 65, 0.733)!important;
+        color: white !important;
+        animation: Slide_Up 2.4s ease;
+        outline: none !important;
+        box-shadow: none;
+    }
+    
+    @keyframes Slide_Up{
+        0%{
+            transform: translateY(250px);
+        }
+        100%{
+            transform: translateY(0px);        
+        }
+    }
+
+}
+
 @media all and (max-width: 1080px){
     .container-fluid{
         background-image: url("https://res.cloudinary.com/dnadfuxk0/image/upload/v1596239578/MyBet21/Epic-Soccer-Training-Review-29_af9qg5.jpg");
@@ -31,7 +114,7 @@
         animation: Slide_Up 2.1s ease;
     }
     
-    .inner > button{
+    .inner > a > button{
         margin-top: 2rem;
         padding: .7em 4.5rem;
         font-size: 1.5em;
@@ -43,7 +126,7 @@
         animation: Slide_Up 2.4s ease;
     }
     
-    .inner > button:hover{
+    .inner > a > button:hover{
         margin-top: 2rem;
         padding: .7em 4.5rem;
         font-size: 1.5em;
@@ -54,7 +137,7 @@
         animation: Slide_Up 2.4s ease;
     }
     
-    .inner > button:focus{
+    .inner > a > button:focus{
         margin-top: 2rem;
         padding: .7em 4.5rem;
         font-size: 1.5em;
@@ -120,7 +203,7 @@
         animation: Slide_Up 2.1s ease;
     }
     
-    .inner > button{
+    .inner > a > button{
         margin-top: 2rem;
         padding: .7em 4.5rem;
         font-size: 1.5em;
@@ -132,7 +215,7 @@
         animation: Slide_Up 2.4s ease;
     }
     
-    .inner > button:hover{
+    .inner > a > button:hover{
         margin-top: 2rem;
         padding: .7em 4.5rem;
         font-size: 1.5em;
@@ -143,7 +226,7 @@
         animation: Slide_Up 2.4s ease;
     }
     
-    .inner > button:focus{
+    .inner > a > button:focus{
         margin-top: 2rem;
         padding: .7em 4.5rem;
         font-size: 1.5em;

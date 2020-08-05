@@ -45,7 +45,7 @@ export default function() {
                             </div>
                         </Col>    
                         <Col xs={6} className="faCircleInfo">
-                            <p>INFINITO, il numero di ricare che puoi fare!</p>
+                            <p>INFINITO, il numero di ricariche che puoi fare!</p>
                         </Col>                    
                     </Row>
                 </Col>

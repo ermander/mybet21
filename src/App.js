@@ -8,13 +8,15 @@ import BonusInfo from './components/BonusInfo';
 // CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import GuadagniInfo from './components/GuadagniInfo';
 
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <NavBar/>
       <BonusInfo />
+      <GuadagniInfo/>
       <ContactForm />
     </div>
   );

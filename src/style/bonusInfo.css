@@ -1,3 +1,51 @@
+@media all and (max-width: 361px){
+    .container-fluid-bonusInfo{
+        background-color: black;
+        background-position: center center;
+        background-size: contain no-repeat;
+        display: flex;
+        justify-content: center;
+        border: none;
+    }
+
+    .faCircleRow{
+        margin-top: 33%!important;
+        margin-bottom: 33%!important;
+        color: white;
+    }
+
+    .faCircleRow  p{
+        color: white!important;
+    }
+
+    .image{
+        margin: 25px;
+        margin-top: 20px;
+        height: 29vh;
+        width: 15vw;
+        background-color: black;
+        border-radius: 50%;
+        border: 2px white solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faCircleInfo{
+        color: white;
+        padding: 6%;
+        font-size: 50px;
+        font-weight: bold!important;
+    }
+
+    .span{
+        font-size: 85px;
+        color: white;
+        z-index: 50;
+    }
+
+}
+
 @media all and (min-width: 1080px){
     .container-fluid-bonusInfo{
         background-color: black;
@@ -15,12 +63,11 @@
     }
 
     .faCircleRow  p{
-        margin-bottom: 33%!important;
         color: white!important;
     }
 
     .image{
-        margin: 20px;
+        margin: 25px;
         height: 29vh;
         width: 15vw;
         background-color: black;
