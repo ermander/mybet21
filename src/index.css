@@ -15,4 +15,5 @@ code {
 
 .fb-customerchat{
   z-index: 1000;
+  position: absolute;
 }
